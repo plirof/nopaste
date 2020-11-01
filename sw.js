@@ -7,6 +7,7 @@ const PRECACHE_URLS = [
     'script.js',
     'sw.js',
     'style.css',
+/*
     'https://cdn.jsdelivr.net/npm/lzma@2.3.2/src/lzma_worker.min.js',
     'https://cdn.jsdelivr.net/combine/' +
         'npm/lzma@2.3.2/src/lzma.min.js,' +
@@ -31,6 +32,15 @@ const PRECACHE_URLS = [
     'https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff',
     'https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf',
     'https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2',
+    */
+    'local/lzma_worker.min.js',
+    'local/meta.min.js',
+    'local/jsDelivr_combined_css.css',
+    'local/JetBrainsMono-Regular.woff2',
+    'local/JetBrainsMono-Regular.woff',
+    'local/JetBrainsMono-Regular.ttf',
+    'local/KFOmCnqEu92Fr1Mu4mxK.woff2',
+
 ];
 
 // The install handler takes care of precaching the resources we always need.
