@@ -1,5 +1,10 @@
 [![Intro](https://github.com/bokub/nopaste/raw/images/intro.png)][intro-img]
 
+# Fork Modifications
+- removed online scripts (since this will be used in a LAN)
+- 
+- 
+
 # What is NoPaste?
 
 [NoPaste](https://nopaste.ml/) is an open-source website similar to Pastebin where you can store any piece of code, and generate links for easy sharing
